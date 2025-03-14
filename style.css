@@ -65,7 +65,7 @@ button[type="submit"]:active{
 .desc-weather,.disp-error-msg{
   font-size: 1.2rem;
   font-weight: bolder;
-  margin-top: 0;
+  margin: auto;
 }
 
 .Weather-emoji{
