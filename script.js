@@ -1,7 +1,8 @@
+import { Apikey } from "./api.js";
 const weatherform=document.querySelector(".weather-form");
 const card=document.querySelector(".display-card");
 const inputcity=document.querySelector(".city-input")
-const apikey="c56dbbe2f67a94ee88cfe283f6346074"
+const apikey=Apikey
 
 
 
