@@ -11,7 +11,7 @@ const apikey=Apikey
 weatherform.addEventListener("submit", async event=>{
 
   event.preventDefault();
-  const city=inputcity.value
+  const city=inputcity.value.trim()
   if(inputcity){
     try{
       const data=await getweatherinfo(city);
@@ -27,7 +27,7 @@ weatherform.addEventListener("submit", async event=>{
     errorMessages("Enter a City")
   }
 
-
+  inputcity.value="";
 })
 
 
